@@ -307,10 +307,11 @@ footer .q{
       
     }
     .main-text{
-        width: 100%;
+        width: 100vw;
         text-wrap:wrap;
         font-size: 16px;
        text-align: center;
+       margin: 0;
     }
     .sub-text{
         font-size: 10px;
@@ -334,5 +335,10 @@ footer .q{
     .faq-box{
         width: 70%;
         font-size: 16px;
+    }
+    footer{
+        font-size: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
